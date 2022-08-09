@@ -20,6 +20,7 @@ import { ButtonModule } from 'primeng/button';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LanginghomeComponent } from './langinghome/langinghome.component';
+import { AuthModule } from 'src/auth/auth.module';
 
 
 
@@ -39,6 +40,7 @@ import { LanginghomeComponent } from './langinghome/langinghome.component';
     BrowserModule,
     AppRoutingModule,
     TabMenuModule,
+    AuthModule
 
   ],
   providers: [],
