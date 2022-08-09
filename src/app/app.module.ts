@@ -10,6 +10,19 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 
+import {TabMenuModule} from 'primeng/tabmenu';
+import {MenuItem} from 'primeng/api';
+import { MenuModule } from 'primeng/menu';
+
+
+
+import { ButtonModule } from 'primeng/button';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LanginghomeComponent } from './langinghome/langinghome.component';
+
+
+
 
 @NgModule({
   declarations: [
@@ -19,11 +32,14 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     HomeComponent,
     GalleryComponent,
     AboutUsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    LanginghomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TabMenuModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
